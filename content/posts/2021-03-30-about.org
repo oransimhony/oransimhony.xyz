@@ -1,0 +1,12 @@
+#+DATE: 2021-03-30T12:14:56+03:00
+#+TITLE: About
+#+URL: /about/
+#+BANNER:
+#+CATEGORIES[]: 
+#+TAGS[]:
+
+Hi! I'm Oran.
+This is my site where I write about various things.
+I'm interested in technology, languages (both human and programming ones), FLOSS and more.
+
+I'm currently working on the [[https://oransimhony.xyz/tags/luka][Luka programming language]], which is a small general-purpose programming language built on top of C and LLVM which has sensible defaults taken from the modern programming approach.

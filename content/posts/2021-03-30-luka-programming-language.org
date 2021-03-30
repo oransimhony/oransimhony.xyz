@@ -1,0 +1,36 @@
+#+DATE: 2021-03-30T12:01:01+03:00
+#+TITLE: Luka Programming Language
+#+URL: /luka-programming-language/
+#+BANNER: 
+#+CATEGORIES[]: Luka
+#+TAGS[]: Programming-Language Compiler Programming Luka
+
+This is a blog post about a programming language I'm creating, called Luka.
+
+* Why did you create a new programming language? There are already many programming languages.
+   Mainly for educational purposes, I wanted to understand how compilers work and improve my knowledge of C and also because it's super fun.
+
+* What differentiates Luka from other programming languages?
+   The compiler is pretty small and people can understand how it works pretty easily in my opinion.
+   
+   Luka is a low-level programming language that assumes (for now) that the developer knows what they are doing but doesn't force defaults from a few decades ago.
+   
+   Types are inferred by default so you wouldn't have to write them all over the place and clutter your code.
+   
+   The syntax resembles a more modern synax, inspired mostly by Rust.
+   
+   Variables are immutable unless you explicitly make the mutable, in order to protect you from changing variables without intention.
+
+* How performant is Luka?
+   Luka uses LLVM to compile to machine code, this makes it pretty portable and fast.
+   
+   The performace is in the area of C.
+
+* Any other dependencies?
+   Aside from LLVM, Luka has libc as a runtime dependency (for now).
+   
+   In the future I might add an option to run without libc but for now there is no such option.
+
+* Where can I learn more about Luka?
+   You can go to the [[https://github.com/luka-lang/luka][repository on Github]]!
+   
